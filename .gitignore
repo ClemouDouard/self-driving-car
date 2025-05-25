@@ -1,1 +1,4 @@
 .venv
+self-driving-car/data
+self-driving-car/dataset_forward
+self-driving-car/dataset_stuck
