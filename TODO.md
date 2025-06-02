@@ -1,6 +1,6 @@
- - [ ] New debian 64bit
- - [ ] Stop object detection
+ - [x] New debian 64bit
+ - [x] Stop object detection
  - [ ] Stop classification
  - [ ] Check the wall detection
- - [ ] 3d print signs
+ - [x] 3d print signs
  

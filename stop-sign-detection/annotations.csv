@@ -1,78 +1,205 @@
 filename,x_min,y_min,x_max,y_max,label
-stop/stop_dataset_photo (10).jpg,427,152,538,247,1
-stop/stop_dataset_photo (11).jpg,408,163,515,248,1
-stop/stop_dataset_photo (12).jpg,152,155,275,260,1
-stop/stop_dataset_photo (13).jpg,399,-4,636,240,1
-stop/stop_dataset_photo (14).jpg,446,211,491,251,1
-stop/stop_dataset_photo (15).jpg,301,215,351,255,1
-stop/stop_dataset_photo (16).jpg,224,201,285,254,1
-stop/stop_dataset_photo (17).jpg,181,174,286,262,1
-stop/stop_dataset_photo (2).jpg,146,106,285,246,1
-stop/stop_dataset_photo (3).jpg,340,112,490,255,1
-stop/stop_dataset_photo (4).jpg,58,100,222,253,1
-stop/stop_dataset_photo (5).jpg,433,125,545,249,1
-stop/stop_dataset_photo (6).jpg,428,121,537,251,1
-stop/stop_dataset_photo (7).jpg,203,30,439,250,1
-stop/stop_dataset_photo (8).jpg,16,134,145,257,1
-stop/stop_dataset_photo (9).jpg,265,145,373,257,1
-stop/stop_dataset_photo_with_sign.jpg,119,126,252,259,1
-not_stop/stop_dataset_photo (1).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (10).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (11).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (13).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (14).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (15).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (16).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (17).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (18).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (19).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (2).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (20).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (21).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (22).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (23).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (24).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (25).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (26).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (27).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (28).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (29).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (30).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (31).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (32).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (33).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (34).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (35).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (36).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (37).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (38).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (39).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (40).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (41).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (42).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (43).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (44).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (45).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (46).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (47).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (48).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (49).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (5).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (50).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (51).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (52).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (53).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (54).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (55).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (56).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (57).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (58).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (59).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (6).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (60).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (61).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (62).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (63).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (7).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (8).jpg,-1,-1,-1,-1,0
-not_stop/stop_dataset_photo (9).jpg,-1,-1,-1,-1,0
+stop\stop_dataset_photo (10).jpg,439,159,534,249,1
+stop\stop_dataset_photo (11).jpg,417,162,508,250,1
+stop\stop_dataset_photo (12).jpg,168,166,263,255,1
+stop\stop_dataset_photo (13).jpg,415,1,640,244,1
+stop\stop_dataset_photo (14).jpg,449,213,490,254,1
+stop\stop_dataset_photo (15).jpg,306,218,347,257,1
+stop\stop_dataset_photo (16).jpg,233,208,283,258,1
+stop\stop_dataset_photo (17).jpg,200,184,277,256,1
+stop\stop_dataset_photo (2).jpg,145,111,287,250,1
+stop\stop_dataset_photo (3).jpg,347,111,482,246,1
+stop\stop_dataset_photo (4).jpg,73,112,218,249,1
+stop\stop_dataset_photo (5).jpg,445,126,541,254,1
+stop\stop_dataset_photo (6).jpg,432,133,534,251,1
+stop\stop_dataset_photo (7).jpg,229,43,431,246,1
+stop\stop_dataset_photo (8).jpg,28,148,146,259,1
+stop\stop_dataset_photo (9).jpg,268,155,368,252,1
+stop\stop_dataset_photo0.jpg,140,70,323,250,1
+stop\stop_dataset_photo1.jpg,107,2,416,239,1
+stop\stop_dataset_photo10.jpg,0,237,29,277,1
+stop\stop_dataset_photo11.jpg,269,231,307,273,1
+stop\stop_dataset_photo12.jpg,204,160,315,273,1
+stop\stop_dataset_photo13.jpg,170,41,340,253,1
+stop\stop_dataset_photo14.jpg,248,212,291,271,1
+stop\stop_dataset_photo15.jpg,229,2,495,255,1
+stop\stop_dataset_photo16.jpg,225,0,496,253,1
+stop\stop_dataset_photo18.jpg,259,145,371,266,1
+stop\stop_dataset_photo19.jpg,294,192,365,269,1
+stop\stop_dataset_photo2.jpg,292,135,411,259,1
+stop\stop_dataset_photo21.jpg,481,228,517,267,1
+stop\stop_dataset_photo22.jpg,148,197,220,279,1
+stop\stop_dataset_photo23.jpg,453,230,493,271,1
+stop\stop_dataset_photo24.jpg,313,177,376,263,1
+stop\stop_dataset_photo25.jpg,314,194,393,290,1
+stop\stop_dataset_photo26.jpg,330,179,416,270,1
+stop\stop_dataset_photo27.jpg,215,72,401,259,1
+stop\stop_dataset_photo28.jpg,143,222,199,275,1
+stop\stop_dataset_photo29.jpg,121,151,242,269,1
+stop\stop_dataset_photo3.jpg,321,207,384,271,1
+stop\stop_dataset_photo30.jpg,116,0,418,249,1
+stop\stop_dataset_photo31.jpg,420,172,509,266,1
+stop\stop_dataset_photo32.jpg,267,231,311,275,1
+stop\stop_dataset_photo33.jpg,145,219,203,276,1
+stop\stop_dataset_photo34.jpg,113,234,157,277,1
+stop\stop_dataset_photo35.jpg,283,239,320,278,1
+stop\stop_dataset_photo36.jpg,237,163,347,280,1
+stop\stop_dataset_photo37.jpg,299,158,410,267,1
+stop\stop_dataset_photo38.jpg,242,120,341,275,1
+stop\stop_dataset_photo39.jpg,227,215,287,275,1
+stop\stop_dataset_photo4.jpg,170,100,305,261,1
+stop\stop_dataset_photo40.jpg,235,109,369,265,1
+stop\stop_dataset_photo41.jpg,409,178,483,279,1
+stop\stop_dataset_photo42.jpg,302,235,352,287,1
+stop\stop_dataset_photo43.jpg,326,233,372,283,1
+stop\stop_dataset_photo44.jpg,308,244,348,284,1
+stop\stop_dataset_photo45.jpg,196,157,289,271,1
+stop\stop_dataset_photo46.jpg,408,185,485,266,1
+stop\stop_dataset_photo47.jpg,393,190,458,271,1
+stop\stop_dataset_photo48.jpg,278,168,384,274,1
+stop\stop_dataset_photo5.jpg,294,152,361,268,1
+stop\stop_dataset_photo51.jpg,26,63,240,271,1
+stop\stop_dataset_photo52.jpg,174,200,254,279,1
+stop\stop_dataset_photo53.jpg,329,217,380,271,1
+stop\stop_dataset_photo54.jpg,170,176,275,279,1
+stop\stop_dataset_photo6.jpg,273,223,321,280,1
+stop\stop_dataset_photo7.jpg,257,234,294,276,1
+stop\stop_dataset_photo8.jpg,261,241,294,272,1
+stop\stop_dataset_photo9.jpg,144,252,171,280,1
+stop\stop_dataset_photo_with_sign.jpg,123,138,251,263,1
+not_stop\stop_dataset_photo (1).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (10).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (11).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (13).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (14).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (15).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (16).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (17).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (18).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (19).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (2).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (20).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (21).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (22).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (23).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (24).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (25).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (26).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (27).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (28).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (29).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (30).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (31).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (32).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (33).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (34).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (35).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (36).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (37).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (38).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (39).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (40).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (41).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (42).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (43).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (44).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (45).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (46).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (47).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (48).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (49).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (5).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (50).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (51).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (52).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (53).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (54).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (55).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (56).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (57).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (58).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (59).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (6).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (60).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (61).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (62).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (63).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (7).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (8).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo (9).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo0.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo1.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo10.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo11.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo12.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo13.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo14.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo15.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo16.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo17 (2).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo17.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo18.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo19.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo2.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo20 (2).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo20.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo21.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo22.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo23.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo24.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo25.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo26.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo27.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo28.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo29.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo3.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo30.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo31.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo32.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo33.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo34.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo35.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo36.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo37.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo38.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo39.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo4.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo40.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo41.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo42.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo43.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo44.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo45.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo46.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo47.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo48.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo49 (2).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo49.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo5.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo50 (2).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo50.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo51.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo52.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo53.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo54.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo55 (2).jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo55.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo56.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo57.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo58.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo59.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo6.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo60.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo61.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo62.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo63.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo64.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo65.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo66.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo67.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo68.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo69.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo7.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo70.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo8.jpg,-1,-1,-1,-1,0
+not_stop\stop_dataset_photo9.jpg,-1,-1,-1,-1,0
