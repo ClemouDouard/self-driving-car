@@ -2,3 +2,4 @@
 self_driving_car/data
 self_driving_car/dataset_forward
 self_driving_car/dataset_stuck
+.ropeproject
