@@ -29,8 +29,8 @@ camera.start()
 
 while running:
 
-    camera.take_photo("live_photo", "")
-    img = Image.open("live_photo.jpg").convert("RGB")
+    img = camera.get_image()
+    img = Image.fromarray(img).convert("RGB")
     img_tensor = transform(img).unsqueeze(0)
 
     with torch.no_grad():

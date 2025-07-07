@@ -28,22 +28,22 @@ camera = Camera(
 camera.start()
 
 while running:
-    
-    camera.take_photo("live_photo", "")
-    img = Image.open("live_photo.jpg").convert("RGB")
+
+    img = camera.get_image()
+    img = Image.fromarray(img).convert("RGB")
     img_tensor = transform(img).unsqueeze(0)
 
     with torch.no_grad():
         output = model(img_tensor)
         _, predicted = torch.max(output, 1)
-    
+
     if predicted.item() == 0:
         print("car cannot go")
         px.forward(0)
     else:
         print("car can go")
         px.forward(1)
-    
+
     clock.tick(1)
 
 camera.stop()
