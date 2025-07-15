@@ -8,8 +8,8 @@ from display import Display
 WIDTH = 640
 HEIGHT = 480
 
-Y = 0
-REGION_HEIGHT = 100
+Y = HEIGHT - 100
+REGION_HEIGHT = 50
 CENTER = WIDTH//2
 
 FPS = 30
@@ -42,7 +42,10 @@ class PID:
         return output
 
 def process_frame(frame):
-    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    if frame is None:
+        print("Warning")
+        return None, frame
+    gray = cv2.cvtColor(frame, cv2.COLOR_RGB2GRAY)
     region = gray[Y:Y+REGION_HEIGHT, :]
     blurred = cv2.GaussianBlur(region, (5,5), 0)
     edges = cv2.Canny(blurred, 50, 150)
@@ -59,7 +62,7 @@ def process_frame(frame):
     else:
         return None, frame
 
-pid = PID(kp=0.4, ki=0.01, kd=0.1)
+pid = PID(kp=0.9, ki=0, kd=0)
 
 running = True
 
@@ -80,7 +83,7 @@ display.show(
     port=9000  # Port for web streaming
 )
 
-px.forward(1)
+#px.forward(1)
 timer = 0
 
 while running:
@@ -89,12 +92,13 @@ while running:
         frame = camera.get_image()
 
         error, processed_frame = process_frame(frame)
+
         dt = 1/FPS
         if error is not None:
             raw_steering = pid.compute(error, dt)
             print(f"raw_steering: {raw_steering}")
             scaled_steering = np.clip((raw_steering / MAX_ERROR) * MAX_STEERING, -30, 30)
-            px.set_dir_servo_angle(scaled_steering)
+            px.set_dir_servo_angle(-scaled_steering)
             print(f"scaled_steering: {scaled_steering}")
         else:
             print("Line not detected")
