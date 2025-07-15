@@ -40,8 +40,10 @@ def process_frame(frame):
 
     if len(edge_indices) >= 2:
         line_center = (np.min(edge_indices) + np.max(edge_indices)) // 2
+        print(f"line_center: {line_center}")
 
         error = CENTER - line_center
+        print(f"error: {error}")
 
         return error, frame
     else:
@@ -80,9 +82,10 @@ while running:
         dt = 1/FPS
         if error is not None:
             raw_steering = pid.compute(error)
+            print(f"raw_steering: {raw_steering}")
             scaled_steering = np.clip((raw_steering / MAX_ERROR) * MAX_STEERING, -30, 30)
             px.set_dir_servo_angle(scaled_steering)
-            print(scaled_steering)
+            print(f"scaled_steering: {scaled_steering}")
         else:
             print("Line not detected")
     else:

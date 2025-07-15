@@ -1,6 +1,3 @@
-- [ ] Push the sign detection
-- [x] Create datasets for the different signs
-- [x] Make the sign classifier model
-- [ ] Test the line follower program
-- [ ] Make the loop
-- [ ] Think about what to add next
+- [ ] Debug the line follower
+- [ ] Fix the sign detection
+- [ ] Make the main loop
