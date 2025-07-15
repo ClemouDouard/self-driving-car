@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-from camera import camera
+from camera import Camera
 from picarx import Picarx
 from pygame import time
 from display import Display
@@ -8,8 +8,8 @@ from display import Display
 WIDTH = 640
 HEIGHT = 480
 
-Y = 100
-REGION_HEIGHT = 20
+Y = 0
+REGION_HEIGHT = 100
 CENTER = WIDTH//2
 
 FPS = 30
@@ -55,22 +55,19 @@ px = Picarx()
 clock = time.Clock()
 camera = Camera(
     size=(640, 480),  # Resolution (width, height)
-    vflip=False,  # Vertical flip
-    hflip=False  # Horizontal flip
+    vflip=True,  # Vertical flip
+    hflip=True  # Horizontal flip
 )
 camera.start()
 camera.show_fps(True)
 
-display = Display()
+display = Display(camera)
 display.show(
     local=True,  # Show in local window
     web=True,  # Enable web streaming
     port=9000  # Port for web streaming
 )
 
-px.set_cam_tilt_angle(0)
-px.set_cam_pan_angle(0)
-px.set_cam_tilt_angle(-30)
 px.forward(1)
 timer = 0
 
