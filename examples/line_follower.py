@@ -25,11 +25,21 @@ class PID:
         self.prev_error = 0
         self.integral = 0
 
-    def compute(self, error):
-        self.integral += error
-        derivative = error - self.prev_error
+    def compute(self, error, dt):
+        self.integral += error * dt
+        # Optional: Clamp the integral to avoid wind-up
+        self.integral = max(min(self.integral, 100), -100)
+
+        derivative = (error - self.prev_error) / dt if dt > 0 else 0
+
+        output = (
+            self.kp * error +
+            self.ki * self.integral +
+            self.kd * derivative
+        )
+
         self.prev_error = error
-        return self.kp * error + self.ki * self.integral + self.kd * derivative
+        return output
 
 def process_frame(frame):
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
@@ -81,7 +91,7 @@ while running:
         error, processed_frame = process_frame(frame)
         dt = 1/FPS
         if error is not None:
-            raw_steering = pid.compute(error)
+            raw_steering = pid.compute(error, dt)
             print(f"raw_steering: {raw_steering}")
             scaled_steering = np.clip((raw_steering / MAX_ERROR) * MAX_STEERING, -30, 30)
             px.set_dir_servo_angle(scaled_steering)
