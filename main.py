@@ -120,3 +120,15 @@ def main():
                         print(f"scaled_steering: {scaled_steering}")
                     else:
                         print("Line not detected")
+
+    except KeyboardInterrupt:
+        px.forward(0)
+        print("\nExiting...")
+    except Exception as e:
+        print(f"Error: {e}")
+    finally:
+        px.forward(0)
+        camera.stop()
+
+if __name__ == "__main__":
+    main()
