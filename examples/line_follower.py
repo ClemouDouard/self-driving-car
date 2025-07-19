@@ -8,13 +8,14 @@ from display import Display
 WIDTH = 640
 HEIGHT = 480
 
-Y = HEIGHT - 100
-REGION_HEIGHT = 50
+Y = HEIGHT - 75
+REGION_HEIGHT = 100
 CENTER = WIDTH//2
 
 FPS = 30
 
-MAX_STEERING = 30
+MAX_STEERING = 35
+STEERING_MULTIPLIER = 40
 MAX_ERROR = WIDTH // 2
 
 class PID:
@@ -83,7 +84,6 @@ display.show(
     port=9000  # Port for web streaming
 )
 
-#px.forward(1)
 timer = 0
 
 while running:
@@ -95,13 +95,16 @@ while running:
 
         dt = 1/FPS
         if error is not None:
+            px.forward(1)
             raw_steering = pid.compute(error, dt)
             print(f"raw_steering: {raw_steering}")
-            scaled_steering = np.clip((raw_steering / MAX_ERROR) * MAX_STEERING, -30, 30)
+            scaled_steering = np.clip((raw_steering / MAX_ERROR) * STEERING_MULTIPLIER, -MAX_STEERING, MAX_STEERING)
             px.set_dir_servo_angle(-scaled_steering)
             print(f"scaled_steering: {scaled_steering}")
         else:
             print("Line not detected")
+            px.set_dir_servo_angle(0)
+            px.forward(0)
     else:
         timer += 1
 
