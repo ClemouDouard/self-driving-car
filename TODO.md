@@ -1,3 +1,3 @@
 - [x] Debug the line follower
-- [ ] Fix the sign detection
-- [ ] Make the main loop
+- [x] Fix the sign detection
+- [x] Make the main loop
